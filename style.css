@@ -3,40 +3,32 @@ body{
     margin: 0;
     box-sizing: border-box;
     background:linear-gradient(to bottom, grey, rgb(65, 64, 64), black);
-    color: wheat;
-
+    color:wheat;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
-    
-    height: 26vh;
+    height: 3cm;
 }
 header h1{
     color: cyan;
     padding-left: 5vw;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
 }
-header h3{
-    color: powderblue;
-    padding-left: 5vw;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.60);
-}
+
 
 /**Section_1 start**/
 
 #section_1{
-    height:25vh ;
     margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 #section_1 h1{
     color: gold;
-    text-align: center;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
-}
-
-#section_1 p{
-    padding-left: 10%;
+    font-size: xx-large;
 }
 
 /**Section_2 start**/
@@ -48,6 +40,8 @@ header h3{
 }
 #section_2 h1{
     text-align: center;
+    font-size: xx-large;
+    color: cyan;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
 }
 
@@ -61,7 +55,6 @@ header h3{
 }
 
 #container_div button{
-    margin-left: 29vw;
     margin-bottom: 2em;
     width: 30%;
     height: 5vh;
@@ -98,6 +91,15 @@ header h3{
 #section_3 h1{
     text-align: center;
     text-shadow: 5px 5px 10px rgba(242, 242, 172, 0.60);
+}
+
+#brokers{
+    text-align: center;
+    margin: 4cm;
+}
+
+#brokers h1{
+    font-size: xx-large;
 }
 
 footer{
