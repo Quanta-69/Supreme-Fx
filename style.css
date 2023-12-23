@@ -14,6 +14,7 @@ header nav{
     position: fixed;
     top: 0;
     width: 100%;
+    margin-top: 1cm;
 }
 header h1{
     color: cyan;
@@ -89,7 +90,7 @@ header h1{
 }
 
 #section_3 h1{
-    text-shadow: 5px 5px 10px rgba(242, 242, 172, 0.60);
+    text-shadow: 5px 5px 10px black;
 }
 
 #brokers{
@@ -100,7 +101,7 @@ header h1{
 
 #brokers h1{
     font-size: xx-large;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    text-shadow: 5px 5px 10px black;
     margin-bottom: 2cm;
 }
 
