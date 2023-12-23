@@ -4,39 +4,37 @@ body{
     box-sizing: border-box;
     background:linear-gradient(to bottom, grey, rgb(65, 64, 64), black);
     color:wheat;
-    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
-    height: 3cm;
+    margin-bottom: 3cm;
+}
+header nav{
+    background:linear-gradient(to right, grey, grey, black);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 header h1{
     color: cyan;
-    padding-left: 5vw;
+    text-align: center;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
 }
-
-
-/**Section_1 start**/
-
 #section_1{
-    margin-top: 50px;
-    margin-bottom: 50px;
     text-align: center;
 }
-
 #section_1 h1{
     color: gold;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
     font-size: xx-large;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
 }
-
-/**Section_2 start**/
 
 
 #section_2{
     margin-bottom: 20px;
-    margin-top: 150px;
+    margin-top: 2.5cm;
     text-align: center;
 }
 #section_2 h1{
@@ -44,6 +42,7 @@ header h1{
     font-size: xx-large;
     color: cyan;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    margin-bottom: 1cm;
 }
 
 #section_2 h2{
@@ -56,12 +55,10 @@ header h1{
 }
 
 #container_div button{
-    margin-bottom: 2em;
-    width: 30%;
-    height: 5vh;
+    margin-bottom: 1cm;
+    border-radius: 10px;
     background: none;
     border: 2px solid cyan;
-    border-radius: 15px;
     color: red;
     transition: 0.3s;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
@@ -92,23 +89,27 @@ header h1{
 }
 
 #section_3 h1{
-    text-align: center;
     text-shadow: 5px 5px 10px rgba(242, 242, 172, 0.60);
 }
 
 #brokers{
     text-align: center;
     margin-top: 4cm;
+    margin-bottom: 4cm;
 }
 
 #brokers h1{
     font-size: xx-large;
-    text-shadow: 5px 5px 10px rgba(73, 72, 72, 0.6);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
     margin-bottom: 2cm;
 }
 
 #brokers button{
     margin-top: 0.5cm;
+    transition: 0.3s;
+}
+#brokers button:hover{
+    scale: 1.2;
 }
 
 #octa_button{
@@ -122,25 +123,10 @@ header h1{
 }
 
 footer{
-	position: relative;
-	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-}
-footer p:nth-child(1){
-	font-size: 30px;
-	color: white;
-	margin-bottom: 20px;
-	font-weight: bold;
-}
-footer p:nth-child(2){
-	color: white;
-	font-size: 17px;
-	width: 500px;
-	text-align: center;
-	line-height: 26px;
 }
 .social{
 	display: flex;
@@ -152,7 +138,6 @@ footer p:nth-child(2){
 	align-items: center;
 	justify-content: center;
 	background:transparent;
-    color: red;
 	border-radius: 50%;
 	margin: 22px 10px;
 	border: 2px solid wheat;
