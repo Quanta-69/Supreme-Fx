@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     background:linear-gradient(to bottom, grey, rgb(65, 64, 64), black);
     color:wheat;
-    text-align: center;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
@@ -37,6 +37,7 @@ header h1{
 #section_2{
     margin-bottom: 20px;
     margin-top: 150px;
+    text-align: center;
 }
 #section_2 h1{
     text-align: center;
@@ -86,7 +87,9 @@ header h1{
 }
 /*Section 3 start*/
 
-
+#section_3{
+    text-align: center;
+}
 
 #section_3 h1{
     text-align: center;
@@ -95,11 +98,27 @@ header h1{
 
 #brokers{
     text-align: center;
-    margin: 4cm;
+    margin-top: 4cm;
 }
 
 #brokers h1{
     font-size: xx-large;
+    text-shadow: 5px 5px 10px rgba(73, 72, 72, 0.6);
+    margin-bottom: 2cm;
+}
+
+#brokers button{
+    margin-top: 0.5cm;
+}
+
+#octa_button{
+    border: 2px solid blue;
+    color: red;
+}
+
+#exness_button{
+    border: 2px solid #FFCF01;
+    color: red;
 }
 
 footer{
