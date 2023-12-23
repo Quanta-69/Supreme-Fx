@@ -7,16 +7,12 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
-    margin-bottom: 3cm;
-}
-header nav{
-    background:linear-gradient(to right, grey, grey, black);
-    width: 100%;
-}
-header h1{
-    color: cyan;
+    position: relative;
     text-align: center;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    display: inline-block;
+}
+header p{
+    
 }
 #section_1{
     text-align: center;
@@ -146,3 +142,5 @@ footer{
 	transform: scale(1.3);
 	transition: .3s;
 }
+
+
