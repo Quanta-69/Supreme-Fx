@@ -8,25 +8,20 @@ body{
 }
 header{
     position: relative;
-    text-align: center;
     display: inline-block;
-    margin-top: 2cm;
-}
-header h2{
-    
-}
-#section_1{
-    text-align: center;
-}
-#section_1 h1{
-    color: gold;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
-    font-size: xx-large;
-    margin-bottom: 1cm;
     margin-top: 1cm;
 }
+header h1{
+    padding-top:2cm;
+    text-align: center;
+    padding-bottom: 0.5cm;
+    color: gold;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
 
-
+header h4{
+    
+}
 #section_2{
     margin-bottom: 20px;
     margin-top: 2.5cm;
@@ -43,6 +38,10 @@ header h2{
 #section_2 h2{
     text-align: center;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+#section_2 ul{
+    list-style: none;
 }
 
 #container_div{
@@ -92,9 +91,10 @@ header h2{
     margin-top: 4cm;
     margin-bottom: 4cm;
 }
-
+#brokers p{
+    font-size: larger;
+}
 #brokers h1{
-    font-size: xx-large;
     text-shadow: 5px 5px 10px black;
     margin-bottom: 2cm;
 }
