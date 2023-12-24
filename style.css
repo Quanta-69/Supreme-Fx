@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;                                                                     
     box-sizing: border-box;
-    background:linear-gradient(to bottom, teal, rgb(1, 1, 152), black);
+    background:linear-gradient(to bottom, teal, rgb(2, 2, 176), black);
     color:wheat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -17,6 +17,9 @@ header h1{
     padding-bottom: 0.5cm;
     color: gold;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+header p{
+    font-size: larger;
 }
 #section_2{
     margin-bottom: 20px;
