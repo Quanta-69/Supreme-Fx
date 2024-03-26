@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  box-sizing: border-box;
+  background:linear-gradient(to top, teal, rgb(1, 58, 58), rgb(0, 22, 22));
+  background-repeat: no-repeat;
+}
+#nav-button{
+  color: red;
+  border: 2px solid cadetblue;
+}
+#nav-button:hover{
+  background-color: cadetblue;
+  color: white;
+}
+#div-1 h1{
+  color: white;
+  text-align: center;
+  padding-top: 1cm;
+}
+#div-1 h1 span{
+  color: darkorange;
+}
+#div-1-p{
+  font-size: 220%;
+  color: darkorange;
+  text-align: center;
+}
+#div-1-p span{
+  color: white;
+  font-size: 50%;
+}
+
+#about{
+  color: darkorange;
+}
+#about-p{
+  color: white;
+  font-size: larger;
+}
+#about-button{
+  color: darkorange;
+  border: 1px solid red;
+  background-color: rgba(255,255,255,0.1);
+  transition: .15s;
+}
+#about-button:hover{
+  background-color: rgba(255,255,255,0.4);
+
+}
+#features p{
+  color: white;
+}
+#features-h4{
+  color: darkorange;
+}
+#features-button{
+  color: darkorange;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid red;
+  transition: .15s;
+}
+#features-button:hover{
+  background-color: rgba(255,255,255,0.4);
+}
+
+#brokers{
+  text-align: center;
+}
+#brokers p{
+  font-size: larger;
+  color: white;
+}
+#brokers h1{
+  color: darkorange;
+  margin-bottom: 2cm;
+}
+#brokers button{
+  margin-top: 0.5cm;
+  transition: 0.3s;
+  background-color: rgba(255,255,255,0.1);
+}
+#brokers button:hover{
+  background-color: rgba(255,255,255,0.4);
+}
+#octa_button{
+  border: 1px solid blue;
+  color: red;
+}
+#exness_button{
+  border: 1px solid #FFCF01;
+  color: red;
+}
+#footer li a{
+  color: darkorange;
+}
+#footer li a:hover{
+  color: white;
+}
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1
+
+    }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: cadetblue;
+
+  }
